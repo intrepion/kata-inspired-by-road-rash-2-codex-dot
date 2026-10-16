@@ -2,6 +2,8 @@
 
 An original browser motorcycle combat racer inspired by **Road Rash II**. Ride a winding, rolling two-lane desert highway from behind the motorcycle; weave through traffic, pass seven rivals, punch or kick nearby riders, and get back to your bike after a fall. Finish third or better to qualify for the next of three stages.
 
+![Cinderline Run racing view](docs/images/racing.jpg)
+
 Original procedural art, names, setting, UI and synthesized engine audio. No ROMs, ripped sprites, recordings, logos or game assets. Unaffiliated with Electronic Arts or Sega.
 
 ## Play locally
