@@ -54,3 +54,7 @@ This is a short single-player slice, not the complete original campaign. No poli
 TypeScript + Vite + Canvas 2D, with no runtime dependencies or remote assets. Fixed 120 Hz simulation, bounded substeps and render projection independent of gameplay. `src/race.ts` owns mechanics and validated save data, `src/render.ts` owns perspective art, and `src/main.ts` binds normal controls and DOM UI. Standards and vocabulary live in [AGENTS.md](AGENTS.md) and [CONTEXT.md](CONTEXT.md).
 
 The `.gitignore` embeds the official GitHub Global **Linux, Windows and macOS** templates, with source links, plus build, dependency, environment, log and local QA exclusions. Full [MIT license](LICENSE).
+
+## Play online
+
+[Play on GitHub Pages](https://intrepion.github.io/kata-inspired-by-road-rash-2-codex-dot/). Return to the [Kata Arcade](https://intrepion.github.io/).
