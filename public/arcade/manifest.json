@@ -1,6 +1,27 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "gameId": "kata-inspired-by-road-rash-2-codex-dot",
   "playUrl": "https://intrepion.github.io/kata-inspired-by-road-rash-2-codex-dot/",
-  "screenshots": []
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/ci-20261103-01.jpg",
+      "sha256": "7d403edac41080e71f35798be6d6b637147c7c40589cfe9958781f3fde111427",
+      "alt": "Cinderline Run gameplay",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261103-01.png",
+        "sourceSha256": "9a086450a0d4be8b6bb6380da462d456652e413c37a378296416ce26d3b32123",
+        "captureCommit": "45c4bdccb0cf4ce9c6d09c947fe86e09c6801bb5",
+        "workflowRunId": "41619730482",
+        "inputHashes": {
+          "assets/index-B339_SRd.js": "8776ed40381d82d0559618e2d07b6c22fbd6a52682c6f2bda5cec5649ae58566",
+          "assets/index-Di9s9lOn.css": "bf542724dcd8b0d40220198b917ed2a0b19055396d2b43cb99675162ea18db70",
+          "index.html": "1e20dae0868e5b3013656a5d3a92d25c1ce94674b0c2377f1b6ffdbaa13a9587"
+        },
+        "publishedFilesVerifiedAt": "2026-11-03T10:31:41Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261103-record.json",
+        "captureRecordSha256": "235425a2c3600fc653739aaabd288026b0a0e0f50630694dc3c25b29c13809e6"
+      }
+    }
+  ]
 }
