@@ -10,7 +10,7 @@ module.exports=async function(page,id){
  else if(key.startsWith('number-munchers')){await page.getByRole('button',{name:'Enter the orchard'}).click();await page.keyboard.press('Space');await page.waitForTimeout(400)}
  else if(key.startsWith('one-must-fall')){await page.getByRole('button',{name:/ENGAGE SYSTEMS/}).click();await page.waitForTimeout(1200);await page.keyboard.down('d');await page.keyboard.down('j');await page.waitForTimeout(1000);await page.keyboard.up('j');await page.keyboard.up('d')}
  else if(key.startsWith('order-of-the-sinking-star')){await page.keyboard.press('ArrowRight');await page.waitForTimeout(300)}
- else if(key.startsWith('road-rash-2')){await page.getByRole('button',{name:/Start your engine/}).click();await page.keyboard.down('w');await page.waitForTimeout(8000);await page.keyboard.up('w')}
+ else if(key.startsWith('road-rash-2')){await page.getByRole('button',{name:/Start your engine/}).click();await page.keyboard.down('w');await page.waitForTimeout(30000);await page.keyboard.up('w')}
  else if(key.startsWith('slay-the-spire')){await page.getByRole('button',{name:/Broken Steps/}).click();await page.waitForTimeout(500)}
  else if(key.startsWith('super-mario-64')){await page.keyboard.down('w');await page.waitForTimeout(1000);await page.keyboard.up('w');await page.keyboard.press('Space')}
  else if(key.startsWith('the-sims-4')){await page.getByRole('button',{name:'Mira',exact:true}).first().click().catch(()=>{});await page.waitForTimeout(500)}
